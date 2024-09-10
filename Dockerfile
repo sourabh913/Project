@@ -1,3 +1,3 @@
 FROM nginx
 LABEL maintainer="Sourabh Singh"
-COPY index.html /usr/share/nginx/html
+COPY /home/ubuntu/Project/index.html /usr/share/nginx/html
